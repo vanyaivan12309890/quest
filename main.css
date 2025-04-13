@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2{
+    color: yellow;
+    padding-top: 5px ;
+}
+
+h2{
+    padding-top: 25px;
+    font-size: 3rem;
+}
+
+a{
+    color: orange;
+    text-decoration: none;
+    font-size: 3rem;
+    position: relative;
+    top: 250px;
+    transition: all 0.5s;
+}
+body{
+    background-color: black;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+h1{
+    font-size: 3rem;
+    margin: 3rem;
+}
+
+a:hover{
+    font-size: 4rem;
+    transition: all 0.5s;
+}
+
+.press-start-2p-regular {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.animation{
+    animation: colorChange 3s infinite;
+}
+
+@keyframes colorChange{
+    0%{color: rgb(255, 0, 0);}
+    25%{color: rgb(127, 255, 0);}
+    50%{color: rgb(255, 127, 0);}
+    75%{color: rgb(127, 0, 255);}
+    100%{color: rgb(255, 0, 0);}
+}
+  
